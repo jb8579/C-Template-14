@@ -1,0 +1,1010 @@
+@media only screen and (max-width: 600px) {
+    /* -----------------------------
+        Home Start
+    ------------------------------ */
+    .header-section {
+        padding: 20px 0px;
+    }
+
+    .header-logo > img {
+        width: 160px;
+        height: auto;
+        margin-bottom: 15px;
+    }
+
+    .header-context > h1 {
+        font-size: 30px;
+        word-spacing: 0px;
+        line-height: 45px;
+    }
+
+    .header-context > p{
+        display: none;
+    }
+
+    .header-context {
+        padding: 0px 0px;
+    }
+    /* -----------------------------
+        Home End
+    ------------------------------ */
+
+
+
+    /* --------------------------
+        List Start
+    ----------------------------- */
+    .game-top-list {
+        padding: 25px 0px;
+    }
+
+    .game-top-list-card {
+        padding: 0px 15px 0px 15px;
+        height: 230px;
+    }
+
+    .brand-area {
+        padding: 20px 0px;
+        justify-content: flex-start;
+        gap: 8px;
+    }
+
+    .brand-name > a > h2 {
+        font-size: 22px;
+        line-height: 30px;
+    }
+
+    .top-listing {
+        margin: 0px;
+        right: 50%;
+        width: 22px;
+        height: 22px;
+        left: 10%;
+        transform: translate(-10px, -80px);
+        display: block;
+    }
+
+    .top-listing span {
+        width: 23px;
+        padding: 2px 0;
+        font-size: 14px;
+    }
+
+    .brand-name-border-1:after, 
+    .brand-name-border-2::after{
+        display: none;
+    }
+
+    .brand-name-border-3::after {
+        height: 150px;
+        margin: 0;
+        left: 50%;
+        transform: translate(0px, -110px);
+    }
+
+    .brand-name-border-sm-3::after {
+        height: 150px;
+        margin: 0;
+        left: 50%;
+        transform: translate(0px, -88px);
+    }
+
+    p.top-bonus-p-middle > span {
+        font-size: 18px;
+    }
+
+    .game-top-list-bonus {
+        text-align: center;
+        padding: 15px 0px;
+    }
+    
+    p.top-bonus-p-middle {
+        font-size: 20px;
+        font-weight: 900;
+        word-spacing: 1px;
+        padding: 0px 6px;
+    }
+
+    .top-rating-p {
+        padding: 0px;
+        top: 50%;
+        position: relative;
+        transform: translate(0px, -115px);
+    }
+
+    .top-list-rating > ul > li {
+        font-size: 18px;
+        margin: 0px 0px;
+        padding: 0px;
+    }
+
+    .ratings-nm > p {
+        font-size: 30px;
+    }
+
+    .top-list-rating-area {
+        padding: 0px;
+        gap: 2px;
+        justify-content: center;
+        max-width: 265px;
+        width: 100%;
+        flex-direction: column-reverse;
+        border: 0px;
+    }
+
+    .top-votes > P {
+        font-size: 14px;
+        padding-top: 10px;
+        position: relative;
+    }
+
+    .button-area {
+        text-align: center;
+        padding: 0px;
+        position: relative;
+        top: 50%;
+        transform: translateY(-40px);
+    }
+
+    .button-area.top-button-sm {
+        transform: translateY(-32px) !important;
+    }
+
+    .top-list-btn > a > button {
+        font-size: 11px;
+        padding: 10px 6px;
+        width: 140px;
+        position: relative;
+        top: -30px;
+    }
+
+    .top-list-TC > a > p {
+        font-size: 8px;
+        position: relative;
+        top: -42px;
+        right: 50%;
+        transform: translateX(-60%);
+    }
+
+    .game-ribbon {
+        transform: translate(-25px, 110px);
+        width: 40px;
+        height: 40px;
+    }
+
+    .game-ribbon > span {
+        width: 40px;
+        padding: 12px 0px;
+    }
+
+    p.top-bonus-p-middle {
+        font-size: 16px;
+        word-spacing: 0px;
+        padding: 4px 0px;
+        position: relative;
+        top: 8px;
+    }
+
+    .top-rating-p.top-rating-sm.top-rating-sm-1 {
+        transform: translate(0px, -85px);
+    }
+
+    .top-list-TC.top-rating-sm-tc {
+        top: 35px;
+        position: relative;
+    }
+
+    .animated-img {
+        width: 15px;
+    }
+    /* ------------------------------
+        List End
+    ---------------------------------- */
+
+
+
+    /* ---------------------------------
+        About Start
+    ------------------------------------- */
+    .about-row {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 60px;
+        flex-direction: column;
+    }
+
+    .about-image > img {
+        width: 100%;
+        height: auto;
+    }
+
+    .about-content > h2 {
+        font-size: 30px;
+    }
+
+    .about-content > p {
+        font-size: 14px;
+        font-style: normal;
+        line-height: 24px;
+    }
+
+    .about-content > ul > li {
+        font-size: 14px;
+        font-style: normal;
+        line-height: 24px;
+    }
+
+    button.primary-btn {
+        padding: 12px 14px;
+        font-size: 12px;
+    }
+    /* ------------------------------------
+        About End
+    -------------------------------------- */
+
+
+
+    /* --------------------------------------
+        Choose Start
+    ---------------------------------------- */
+    .choose-row-1 {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+        margin-top: 40px;
+    }
+
+    .choose-row-2 {
+        width: 100%;
+        transform: translateX(0px);
+        margin-top: 30px;
+    }
+
+    .choose-card.pink-bg {
+        padding: 20px;
+    }
+
+    .choose-card > p {
+        font-size: 14px;
+        line-height: 26px;
+    }
+    /* -------------------------------------
+        Choose End
+    ---------------------------------------- */
+
+
+
+    /* ----------------------------------
+        Game Context Start
+    ------------------------------------ */
+    .game-content > h2 {
+        font-size: 32px;
+        line-height: 48px;
+    }
+
+    .game-content > p {
+        font-size: 14px;
+        font-style: normal;
+        line-height: 24px;
+    }
+    /* ------------------------------
+        Game Context End
+    ------------------------------------- */
+
+
+
+    /* -------------------------------------
+        Footer Start
+    ---------------------------------------- */
+    .footer-license-images {
+        text-align: center;
+    }
+
+    .copyright-display {
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 18px;
+    }
+
+    .copyright-context > p > a {
+        font-size: 13px;
+        line-height: 28px;
+        margin: 00px 2px;
+    }
+
+    .footer-cp-bg {
+        padding: 0px 0px;
+    }
+
+    .footer-txt {
+        overflow-x: hidden;
+        padding: 0px;
+    }
+
+    .footer-license-images {
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: -20px !important;
+    }
+
+    .page-content > h5 {
+        font-size: 20px;
+        line-height: 28px;
+        padding-bottom: 8px;
+    }
+
+    .footer-txt > h2 {
+        font-size: 30px;
+        margin-top: 30px;
+        margin-bottom: -5px;
+    }
+
+    p.footer-p-a {
+        font-size: 11px;
+        font-weight: 400;
+        color: #dddcdc;
+        line-height: 21px;
+    }
+
+    .copyright-context > p {
+        font-size: 11px;
+    }
+    /* ------------------------------------
+        Footer End
+    ---------------------------------------- */
+
+
+
+    /* -------------------------------------
+        Game Page Start
+    ------------------------------------- */
+    h2.game-page-title {
+        font-size: 30px;
+    }
+
+    .game-page {
+        padding: 50px 0px;
+        text-align: center;
+    }
+    /* ----------------------------------
+        Game Page End
+    -------------------------------------- */
+}
+
+
+
+@media (max-width: 400px) {
+    /* -----------------------------
+        Home Start
+    ------------------------------ */
+    .header-context > h1 {
+        font-size: 28px;
+        word-spacing: 0px;
+        line-height: 40px;
+    }
+    /* -----------------------------
+        Home End
+    ------------------------------ */
+
+
+
+    /* --------------------------
+        List Start
+    ----------------------------- */
+    .top-list-bonus.top-list-bonus-sm {
+        transform: translate(-100px, 22px) !important;
+    }
+
+    .button-area.top-button-sm {
+        transform: translateY(-15px) !important;
+    }
+
+    .game-top-list-card {
+        padding: 0px 15px 0px 15px;
+        margin: 15px 0px;
+    }
+
+    .game-top-list {
+        padding: 5px 0px;
+    }
+
+    .brand-name > a > h2 {
+        font-size: 22px;
+        line-height: 30px;
+        text-decoration: none !important;
+    }
+
+    p.top-bonus-p-top {
+        margin-bottom: -10px !important;
+    }
+
+    p.top-bonus-p-bottom {
+        font-size: 15px !important;
+    }
+
+    .top-listing {
+        width: 22px;
+        height: 22px;
+        transform: translate(-20px, -80px);
+    }
+
+    .top-listing span {
+        width: 23px;
+        padding: 2px 0;
+        font-size: 14px;
+    }
+
+    .brand-name-border-3::after {
+        transform: translate(5px, -86px);
+        height: 225px;
+        width: 1px;
+    }
+
+    .col-md-3.col-6.brand-name-border-3.brand-name-border-sm-4::after {
+        transform: translate(5px, -63px) !important;
+        height: 225px;
+        width: 1px;
+    }
+
+    .top-list-bonus {
+        transform: translate(-90px, 5px);
+    }
+
+    p.top-bonus-p-bottom {
+        font-size: 15px;
+    }
+    /* ------------------------------
+        List End
+    ---------------------------------- */
+}
+
+
+
+@media only screen and (max-width: 490px) and (min-width: 401px){
+    /* ----------------------------
+        Game Top List Start
+    ------------------------------- */
+    .top-list-TC > a > p {
+        top: -28px;
+    }
+
+    .top-rating-p {
+        transform: translate(0px, -126px);
+    }
+
+    .top-list-btn > a > button {
+        top: -18px;
+    }
+
+    .brand-name-border-3::after {
+        height: 200px;
+        margin: 0;
+        left: 50%;
+        transform: translate(0px, -100px);
+        width: 1px;
+        height: 230px;
+    }
+
+    .col-md-3.col-6.brand-name-border-3.brand-name-border-sm-4::after {
+        transform: translate(0px, -77px) !important;
+        height: 230px;
+        width: 1px;
+    }
+
+    p.top-bonus-p-middle {
+        font-size: 18px !important;
+    }
+
+    p.top-bonus-p-bottom {
+        font-size: 15px;
+    }
+
+    .game-ribbon {
+        transform: translate(-35px, 110px);
+    }
+
+    .top-rating-p.top-rating-sm.top-rating-sm-1 {
+        transform: translate(0px, -95px);
+    }
+
+    .top-bonus-p-middle.p-sm-1{
+        font-size: 20px !important;
+    }
+    /* ----------------------------------
+        Game Top List End
+    --------------------------------------- */
+}
+
+
+
+@media only screen and (max-width: 360px) and (min-width: 300px){
+    /* ------------------------------
+        Game Top List Start
+    --------------------------------- */
+    .top-list-TC > a > p {
+        top: -50px;
+        transform: translateX(-65%);
+    }
+
+    .top-rating-p {
+        transform: translate(0px, -126px);
+    }
+
+    .top-list-btn > a > button {
+        top: -30px;
+    }
+
+    p.top-bonus-p-middle > span {
+        font-size: 19px;
+    }
+
+    .brand-name-border-3::after {
+        transform: translate(5px, -74px);
+        height: 200px;
+    }
+
+    p.top-bonus-p-bottom {
+        font-size: 14px !important;
+    }
+
+    .col-md-3.col-6.brand-name-border-3.brand-name-border-sm-4::after {
+        transform: translate(5px, -54px) !important;
+        height: 200px;
+    }
+
+    .top-list-TC.top-rating-sm-tc {
+        top: 40px;
+        position: relative;
+    }
+
+    .game-top-list-card {
+        height: 218px;
+    }
+
+    p.top-bonus-p-middle {
+        font-size: 14px;
+    }
+
+    p.top-bonus-p-middle > span {
+        font-size: 16px;
+    }
+    /* -----------------------------------
+        Game Top List End
+    --------------------------------------- */
+}
+
+
+
+@media only screen and (max-width: 990px) and (min-width: 601px){
+    /* ---------------------------------
+        Home Start
+    -------------------------------------*/
+    .header-context > h1 {
+        font-size: 36px;
+    }
+
+    .header-context > p {
+        width: 100%;
+    }
+    /* ----------------------------------
+        Home End
+    ------------------------------------ */
+
+
+    /* ---------------------------------
+        Top List Start
+    -------------------------------------*/
+    .game-top-list-card {
+        margin: 0px 0px 15px 0px;
+        height: 160px;
+    }
+
+    .brand-area {
+        gap: 6px;
+        padding: 35px 0px;
+    }
+
+    .brand-name > a > h2 {
+        font-size: 24px;
+    }
+
+    .top-listing {
+        width: 26px;
+        height: 26px;
+        margin-top: -100px;
+        margin-left: -16px;
+    }
+
+    .top-listing span {
+        width: 26px;
+        padding: 6px 0;
+    }
+
+    .top-list-rating > ul > li {
+        font-size: 12px;
+        margin: 0px;
+    }
+
+    .ratings-nm > p {
+        font-size: 34px;
+    }
+
+    .top-list-rating-area {
+        display: flex;
+        padding: 4px 6px;
+        gap: 0px;
+        justify-content: space-between;
+    }
+
+    .top-list-btn > a > button {
+        font-size: 12px;
+        padding: 12px 16px;
+    }
+
+    p.top-bonus-p-middle {
+        font-size: 16px;
+        padding: 0px;
+    }
+
+    p.top-bonus-p-middle > span{
+        font-size: 20px;
+    }
+
+    p.top-bonus-p-bottom {
+        font-size: 14px !important;
+    }
+
+    .brand-name-border-1::after {
+        margin: 0px;
+        left: 50%;
+        transform: translateX(-179px);
+        margin-top: -107px !important;
+    }
+
+    .brand-name-border-2::after {
+        margin: 0px;
+        left: 50%;
+        transform: translateX(-1px);
+        margin-top: -107px !important;
+    }
+
+    .brand-name-border-3::after {
+        margin: 0px;
+        left: 50%;
+        transform: translateX(180px);
+        margin-top: -150px !important;
+    }
+
+    .game-top-list-bonus {
+        text-align: center;
+        padding: 0px 0px;
+        position: relative;
+        top: 22px;
+    }
+
+    .brand-game-logo a > img {
+        width: 195px;
+        height: auto;
+        position: relative;
+        top: 50%;
+        transform: translate(-100px, 18px);
+        left: 50%;
+    }
+
+    .top-list-TC > a > p {
+        font-size: 7px;
+    }
+
+    .game-ribbon {
+        transform: translate(-28px, 105px);
+    }
+    /* ----------------------------------
+        Top List End
+    ------------------------------------ */
+
+
+
+    /* ------------------------------
+        About Start
+    ---------------------------------- */
+    .about-row {
+        display: flex;
+        align-items: baseline;
+        gap: 50px;
+        flex-direction: column;
+    }
+    /* ----------------------------------
+        About End
+    -------------------------------------- */
+
+
+
+    /* --------------------------------
+        Top Game Start
+    ---------------------------------- */
+    .images-flex-1 > .img-box img {
+        width: 100%;
+        height: auto;
+    }
+
+    .images-flex-2 >.img-box img {
+        width: 100%;
+        height: auto;
+    }
+    /* -------------------------------
+        Top Game End
+    ----------------------------------- */
+
+
+
+    /* ----------------------------------
+        Choose Start
+    ------------------------------------ */
+    .choose-card.pink-bg {
+        padding: 30px;
+    }
+
+    .choose-row-2 {
+        transform: translateX(50%);
+    }
+
+    .choose-card.dark-pink-bg{
+        padding: 30px;
+    }
+    /* ------------------------------------
+        Choose End
+    ---------------------------------------- */
+
+
+    /* ---------------------------------------
+        Bonus Start
+    -------------------------------------- */
+    .bonus-bg-right {
+        width: 80%;
+        height: auto;
+        top: 10%;
+        right: 2%;
+    }
+
+    .bonus-bg-left{
+        width: 80%;
+        height: auto;
+        top: 10%;
+        left: 2%;
+    }
+
+    .bonus-03 {
+        height: 540px;
+    }
+    /* -------------------------------------
+        Bonus End
+    --------------------------------------- */
+
+
+
+    /* ---------------------------------
+        Testimonial Start
+    -------------------------------------- */
+    .client-card-01 {
+        padding: 30px 15px;
+        min-height: 350px;
+    }
+    /* --------------------------------------
+        Testimonial End
+    ---------------------------------------- */
+
+
+    /* ---------------------------------------
+        Footer Start
+    ---------------------------------------- */
+    .copyright-context > p {
+        font-size: 12px;
+        word-spacing: 1.2px;
+        letter-spacing: 0.2px;
+        margin: 0px;
+    }
+    /* -----------------------------------------
+        Footer End
+    ------------------------------------------ */
+}
+
+
+
+@media only screen and (max-width: 1099px) and (min-width: 991px){
+    /* ---------------------------------
+        Home Start
+    -------------------------------------*/
+    .header-context > p {
+        width: 100%;
+    }
+    /* ----------------------------------
+        Home End
+    ------------------------------------ */
+
+
+
+    /* ---------------------------------
+        Top List Start
+    -------------------------------------*/
+    .brand-name-border::after {
+        margin-left: 218px;
+        margin-top: -88px !important;
+    }
+
+    .top-list-rating > ul > li {
+        font-size: 18px;
+        margin: 0px 0px;
+    }
+
+    .brand-name-border-1::after {
+        margin-left: 218px;
+        margin-top: -105px !important;
+    }
+
+    .brand-name-border-2::after {
+        margin-left: 218px;
+        margin-top: -128px !important;
+    }
+
+    .brand-name-border-3::after {
+        margin-left: 218px;
+        margin-top: -160px !important;
+    }
+
+    .top-list-btn > a > button {
+        font-size: 14px;
+        padding: 12px 24px;
+    }
+
+    p.top-bonus-p-middle {
+        font-size: 15px;
+    }
+
+    p.top-bonus-p-bottom {
+        font-size: 16px !important;
+    }
+
+    .bonus-bg-right {
+        width: 78%;
+    }
+
+    .bonus-bg-left {
+        width: 78%;
+    }
+
+    p.top-bonus-p-middle > span {
+        font-size: 18px;
+    }
+
+    .brand-game-logo a > img {
+        width: 100%;
+        height: auto;
+        position: relative;
+        top: 25%;
+        transform: translateY(20px);
+    }
+    /* ----------------------------------
+        Top List End
+    ------------------------------------ */
+}
+
+
+
+@media only screen and (max-width: 1199px) and (min-width: 1100px){
+    /* ---------------------------------
+        Home Start
+    -------------------------------------*/
+    #disclaimer p {
+        padding: 10px 20px;
+        font-size: 15px;
+    }
+
+    .header-context > p {
+        width: 100%;
+    }
+    /* ----------------------------------
+        Home End
+    ------------------------------------ */
+
+
+    /* ---------------------------------
+        Top List Start
+    -------------------------------------*/
+    .brand-name-border::after {
+        display: block;
+        margin: 0px;
+        left: 50%;
+        transform: translateX(-254px);
+        margin-top: -84px !important;
+    }
+
+    .top-list-rating > ul > li {
+        font-size: 11px;
+        margin: 0px -1px;
+    }
+
+    .brand-name-border-1::after {
+        margin-left: 238px;
+        margin-top: -115px !important;
+    }
+
+    .brand-name-border-2::after {
+        margin-left: 238px;
+        margin-top: -142px !important;
+    }
+
+    .brand-name-border-3::after {
+        margin-left: 238px;
+        margin-top: -160px !important;
+    }
+
+    .top-list-btn > a > button {
+        font-size: 14px;
+        padding: 12px 30px;
+    }
+
+    p.top-bonus-p-middle {
+        font-size: 22px;
+    }
+
+    p.top-bonus-p-bottom {
+        font-size: 14px !important;
+    }
+    /* ----------------------------------
+        Top List End
+    ------------------------------------ */
+}
+
+
+
+@media only screen and (max-width: 1260px) and (min-width: 1200px){
+    /* ---------------------------------
+        Top List Start
+    -------------------------------------*/
+    .brand-name-border::after {
+        display: block;
+        margin: 0px;
+        left: 50%;
+        transform: translateX(-290px);
+        margin-top: -84px !important;
+    }
+
+    .top-list-rating > ul > li {
+        font-size: 13px;
+        margin: 0px;
+    }
+
+    .top-list-btn > a > button {
+        font-size: 14px;
+        padding: 12px 40px;
+    }
+
+    p.top-bonus-p-middle {
+        font-size: 24px;
+    }
+
+    p.top-bonus-p-bottom {
+        font-size: 15px !important;
+    }
+    /* ----------------------------------
+        Top List End
+    ------------------------------------ */
+}
+
+
+
+@media (max-width: 991px){
+    body .container{
+        max-width:100%
+    }
+}
+
+
+
+@media (min-width: 992px){
+    body .container {
+        width: 1250px;
+        max-width: 98vw;
+    }
+}
