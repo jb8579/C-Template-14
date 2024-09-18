@@ -516,7 +516,11 @@
     --------------------------------------- */
 }
 
-
+@media only screen and (max-width: 370px) and (min-width: 350px){
+p.top-bonus-p-middle {
+    font-size: 15px !important;
+}
+}
 
 @media only screen and (max-width: 360px) and (min-width: 300px){
     /* ------------------------------
