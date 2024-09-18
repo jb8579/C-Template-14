@@ -600,7 +600,7 @@ p.top-bonus-p-middle {
         Top List Start
     -------------------------------------*/
     .game-top-list-card {
-        margin: 0px 0px 15px 0px;
+        margin: 0px;
         height: 160px;
     }
 
@@ -626,8 +626,9 @@ p.top-bonus-p-middle {
     }
 
     .top-list-rating > ul > li {
-        font-size: 12px;
+        font-size: 17px;
         margin: 0px;
+        padding: 1px;
     }
 
     .ratings-nm > p {
@@ -643,34 +644,43 @@ p.top-bonus-p-middle {
 
     .top-list-btn > a > button {
         font-size: 12px;
-        padding: 12px 16px;
+        padding: 12px 5px;
+        width: 172px;
     }
 
     p.top-bonus-p-middle {
-        font-size: 16px;
+        font-size: 14px;
         padding: 0px;
     }
 
     p.top-bonus-p-middle > span{
-        font-size: 20px;
+        font-size: 15px;
     }
 
     p.top-bonus-p-bottom {
         font-size: 14px !important;
+        font-weight: 600;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        max-width: 440px;
+        width: 100%;
     }
 
     .brand-name-border-1::after {
         margin: 0px;
         left: 50%;
         transform: translateX(-179px);
-        margin-top: -107px !important;
+        margin-top: -115px !important;
+        height: 155px;
     }
 
     .brand-name-border-2::after {
         margin: 0px;
         left: 50%;
         transform: translateX(-1px);
-        margin-top: -107px !important;
+        margin-top: -56px !important;
+        height: 160px;
     }
 
     .brand-name-border-3::after {
@@ -678,6 +688,7 @@ p.top-bonus-p-middle {
         left: 50%;
         transform: translateX(180px);
         margin-top: -150px !important;
+        height: 155px;
     }
 
     .game-top-list-bonus {
@@ -701,7 +712,12 @@ p.top-bonus-p-middle {
     }
 
     .game-ribbon {
-        transform: translate(-28px, 105px);
+        transform: translate(-36px, 106px);
+    }
+
+    .game-content > h2 {
+        font-size: 32px;
+        line-height: 50px;
     }
     /* ----------------------------------
         Top List End
@@ -723,90 +739,22 @@ p.top-bonus-p-middle {
     -------------------------------------- */
 
 
-
-    /* --------------------------------
-        Top Game Start
-    ---------------------------------- */
-    .images-flex-1 > .img-box img {
-        width: 100%;
-        height: auto;
-    }
-
-    .images-flex-2 >.img-box img {
-        width: 100%;
-        height: auto;
-    }
-    /* -------------------------------
-        Top Game End
-    ----------------------------------- */
-
-
-
-    /* ----------------------------------
-        Choose Start
-    ------------------------------------ */
-    .choose-card.pink-bg {
-        padding: 30px;
-    }
-
-    .choose-row-2 {
-        transform: translateX(50%);
-    }
-
-    .choose-card.dark-pink-bg{
-        padding: 30px;
-    }
-    /* ------------------------------------
-        Choose End
-    ---------------------------------------- */
-
-
-    /* ---------------------------------------
-        Bonus Start
-    -------------------------------------- */
-    .bonus-bg-right {
-        width: 80%;
-        height: auto;
-        top: 10%;
-        right: 2%;
-    }
-
-    .bonus-bg-left{
-        width: 80%;
-        height: auto;
-        top: 10%;
-        left: 2%;
-    }
-
-    .bonus-03 {
-        height: 540px;
-    }
-    /* -------------------------------------
-        Bonus End
-    --------------------------------------- */
-
-
-
-    /* ---------------------------------
-        Testimonial Start
-    -------------------------------------- */
-    .client-card-01 {
-        padding: 30px 15px;
-        min-height: 350px;
-    }
-    /* --------------------------------------
-        Testimonial End
-    ---------------------------------------- */
-
-
     /* ---------------------------------------
         Footer Start
     ---------------------------------------- */
     .copyright-context > p {
-        font-size: 12px;
-        word-spacing: 1.2px;
-        letter-spacing: 0.2px;
+        font-size: 11px;
+        word-spacing: 0px;
+        letter-spacing: 0px;
         margin: 0px;
+    }
+
+    .footer-license-images {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
     }
     /* -----------------------------------------
         Footer End
@@ -843,17 +791,20 @@ p.top-bonus-p-middle {
 
     .brand-name-border-1::after {
         margin-left: 218px;
-        margin-top: -105px !important;
+        margin-top: -122px !important;
+        height: 168px;
     }
 
     .brand-name-border-2::after {
         margin-left: 218px;
-        margin-top: -128px !important;
+        margin-top: -114px !important;
+        height: 176px;
     }
 
     .brand-name-border-3::after {
         margin-left: 218px;
-        margin-top: -160px !important;
+        margin-top: -168px !important;
+        height: 168px;
     }
 
     .top-list-btn > a > button {
@@ -862,11 +813,16 @@ p.top-bonus-p-middle {
     }
 
     p.top-bonus-p-middle {
-        font-size: 15px;
+        font-size: 16px;
     }
 
     p.top-bonus-p-bottom {
-        font-size: 16px !important;
+        font-size: 18px !important;
+        position: absolute;
+        width: 100%;
+        max-width: 215px;
+        left: 50%;
+        transform: translateX(-105%);
     }
 
     .bonus-bg-right {
@@ -930,17 +886,17 @@ p.top-bonus-p-middle {
 
     .brand-name-border-1::after {
         margin-left: 238px;
-        margin-top: -115px !important;
+        margin-top: -124px !important;
     }
 
     .brand-name-border-2::after {
         margin-left: 238px;
-        margin-top: -142px !important;
+        margin-top: -100px !important;
     }
 
     .brand-name-border-3::after {
         margin-left: 238px;
-        margin-top: -160px !important;
+        margin-top: -152px !important;
     }
 
     .top-list-btn > a > button {
@@ -949,11 +905,21 @@ p.top-bonus-p-middle {
     }
 
     p.top-bonus-p-middle {
-        font-size: 22px;
+        font-size: 20px;
+        padding: 0px;
     }
 
     p.top-bonus-p-bottom {
-        font-size: 14px !important;
+        font-size: 18px !important;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-111%);
+        width: 100%;
+        max-width: 210px;
+    }
+
+    p.top-bonus-p-middle > span {
+        font-size: 22px;
     }
     /* ----------------------------------
         Top List End
@@ -966,12 +932,19 @@ p.top-bonus-p-middle {
     /* ---------------------------------
         Top List Start
     -------------------------------------*/
-    .brand-name-border::after {
-        display: block;
-        margin: 0px;
-        left: 50%;
-        transform: translateX(-290px);
-        margin-top: -84px !important;
+    .brand-name-border-1::after {
+        margin-left: 266px;
+        margin-top: -135px !important;
+    }
+
+    .brand-name-border-2::after {
+        margin-left: 266px;
+        margin-top: -130px !important;
+    }
+
+    .brand-name-border-3::after {
+        margin-left: 238px;
+        margin-top: -150px !important;
     }
 
     .top-list-rating > ul > li {
@@ -985,7 +958,11 @@ p.top-bonus-p-middle {
     }
 
     p.top-bonus-p-middle {
-        font-size: 24px;
+        font-size: 20px;
+    }
+
+    p.top-bonus-p-middle > span {
+        font-size: 22px;
     }
 
     p.top-bonus-p-bottom {
